@@ -1,4 +1,4 @@
-import {DECREASE_COUNT, INCREASE_COUNT} from "../constants";
+import {DECREASE_COUNT, INCREASE_COUNT, GET_LATEST_NEWS} from "../constants";
 
 export const increaseCount = () => ({
     type: INCREASE_COUNT,
@@ -6,4 +6,7 @@ export const increaseCount = () => ({
 
 export const decreaseCount = () => ({
     type: DECREASE_COUNT,
+})
+export const getLatestNews = () => ({
+    type: GET_LATEST_NEWS,
 })
